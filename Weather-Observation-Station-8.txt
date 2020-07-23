@@ -1,0 +1,1 @@
+select DISTINCT city from station where substr(city,1,1)in('a','e','i','o','u') AND substr(city,length(city),length(city))in('a','e','i','o','u');
